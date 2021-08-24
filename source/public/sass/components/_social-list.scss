@@ -1,0 +1,18 @@
+.social-list {
+  display: flex;
+}
+
+.social-list__item {
+  margin: 10px;
+}
+
+.social-list__link {
+  color: #ffffff;
+  width: 39px;
+  height: 39px;
+  font-size: 39px;
+}
+
+.social-list__link:hover {
+color: #e537bb;
+}

@@ -1,0 +1,26 @@
+<header class="header">
+  <div class="header__wrap">
+    <div class="header__logo-wrap">
+      <a class="header__logo" href="#">
+        <picture>
+          <source srcset="img/logo-header.webp" type="image/webp">
+          <img class="header__logo-pic" src="img/logo-header.png" alt="Figma land">
+        </picture>
+      </a>
+    </div>
+
+    <div class="header__nav collapse" id="navbarContent">
+      <!-- ==================================== NAV-BAR ===================================== -->
+      @@include('./nav-bar.html')
+    </div>
+
+    <div class="header__btn">
+      <button class="button button-first">Sign Up</button>
+    </div>
+
+    <div class="header__open-menu">
+      <!-- ==================================== OPEN-MENU ===================================== -->
+      @@include('./open-menu.html')
+    </div>
+  </div>
+</header>

@@ -1,0 +1,44 @@
+.open-menu {
+  position: relative;
+  width: 27px;
+  height: 16px;
+  color: #000;
+
+  .open-menu__line,
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 3px;
+    margin: auto;
+    background-color: currentColor;
+    transition: width $anim;
+  }
+
+  &:before {
+    top: 0;
+    bottom: 0;
+    width: 80%;
+  }
+
+  &:after {
+    bottom: 0;
+    width: 65%;
+  }
+
+  @include hover {
+    &:hover,
+    &focus {
+      &:before,
+      &:after {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.open-menu__line {
+  top: 0;
+  width: 100%;
+}

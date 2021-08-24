@@ -1,0 +1,82 @@
+.preview-sect {
+  padding-top: 74px;
+}
+
+.preview-sect__wrap {
+  // padding: 0 24px;
+}
+
+.preview-sect__title {
+  max-width: 302px;
+  margin: 0 auto;
+  margin-bottom: 36px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.preview-sect__text {
+  font-family: Roboto, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.preview-sect__decor {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding-bottom: 45%;
+  background-image: url('../img/preview-sect/bg.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  @include media-xl {
+    background-image: url('../img/preview-sect/bg-desc.svg');
+    padding-bottom: 35%;
+  }
+}
+
+.preview-sect__btn {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 55px;
+  margin: auto;
+  width: 260px;
+
+  @include media-xl {
+    top: 97px;
+  }
+}
+
+.preview-sect__photo {
+  position: absolute;
+  top: 510px;
+  width: 100%;
+  background-image: url('../img/preview-sect/isometric.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 330px;
+  margin: 0 auto;
+
+  @include media-xl {
+    background-image: url('../img/preview-sect/isometric-big.png');
+    top: 827px;
+  }
+}
+
+.preview-sect__color {
+  background-image: url('../img/preview-sect/Rectangle.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  padding-bottom: 36.1%;
+}
